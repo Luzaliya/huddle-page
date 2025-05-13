@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+       height: 100dvh;
+    display: grid;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+
+.logo{
+    width: 10rem;
+}
+
+nav a{
+    color: pink;
+    border: 1px solid pink;
+    padding: 7px;
+    border-radius: 1rem;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    background: white;
+}
+
+header{
+    background: white;
+    text-align: center;
+    margin: 3rem;
+}
+
+header P{
+    font-size: 16px;
+    width: 26rem;
+    margin: 1rem;
+    color:  hsl(192, 100%, 9%);
+    text-align: center;
+}
+
+.header-a{
+    margin: 2rem;
+}
+header a{
+     background: hsl(322, 100%, 66%);
+     padding: 8px;
+     color: white;
+     border-radius: 3rem;
+}
+
+.screen-mockups{
+    width: 35rem;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    margin: 3rem;
+}
+
+.numbers h1{
+    font-size: 40px;
+}
+
+.numbers p{
+    color:  hsl(192, 100%, 9%);
+    margin: 0.5rem;
+}
+
+.grow-together{
+    display: flex;
+    justify-content: space-between;
+    background: hsl(207, 100%, 98%);
+    gap: 3rem;
+    margin: 3rem;
+}
+
+.grow{
+    margin: 7rem;
+
+}
+
+.grow h1{
+    margin: 1rem;
+}
+
+.grow p{
+    margin: 1rem;
+    width: 27rem;
+}
+
+.grow-image{
+    width: 35rem;
+    height: 25rem;
+    margin: 3rem;
+}
+
+.flow{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin: 3rem;
+    gap: 3rem;
+}
+
+.flow-image{
+    width: 30rem;
+}
+
+.flowing{
+    margin-top: 8rem;
+}
+
+.flowing h1{
+    margin: 1rem;
+}
+
+.flowing p{
+    margin: 1rem;
+    width: 29rem;
+}
+
+.users{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    gap: 3rem;
+}
+
+.Ready{
+    margin: 4rem;
+   background: white;
+}
+
+
+.Ready-a{
+    margin: 2rem;
+    text-align: center;
+}
+.Ready a{
+    background: hsl(322, 100%, 66%);
+    margin: 1rem;
+    color: white;
+    padding: 10px;
+    border-radius: 3rem;
+}
+
+footer{
+    background:  hsl(192, 100%, 9%);
+    color: white;
+}
+
+.footer-body{
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.footer-main p{
+    margin: 1rem;
+    width: 35rem;
+}
+
+.footer-contact{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.footer-contact p{
+    margin: 0;
+}
+
+footer ul{
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.footer-aside h1{
+    margin: 1rem;
+    font-size: 25px;
+}
+
+.footer-aside p{
+    margin: 1rem;
+    width: 21rem;
+}
+
+.footer-aside-subscribe{
+    margin: 1rem;
+}
+
+
+.footer-aside-subscribe a{
+    background: hsl(322, 100%, 66%);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+/*=====================================media mobile =================*/
+@media screen and (max-width: 375px)  {
+
+    body{
+        padding: 0;
+    }
+
+    header h1{
+        width: 15rem;
+    }
+
+header p{
+    width: 18rem;
+    text-align: justify;
+}
+
+    .numbers{
+        display: grid;
+        grid-template-rows: 1fr;
+        padding: 0;
+        margin: 0;
+    }
+
+    .grow-together{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .grow-together p{
+        width: 20rem;
+    }
+
+    .flow{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        gap: 1rem;
+    }
+    
+    .flow P{
+        width: 20rem;
+    }
+
+    .users{
+        display: grid;
+        grid-template-rows: 1fr;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .users p{
+        width: 20rem;
+    }
+
+.Ready h1{
+    width: 15rem;
+}
+
+
+
+    .footer-body{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+}
+
+
+
